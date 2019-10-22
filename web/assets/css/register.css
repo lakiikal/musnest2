@@ -82,7 +82,7 @@ body {
 
 #inputContainer label {
     color: white;
-    font-size: 113px;
+    font-size: 13px;
     margin-top: 15px;
     display: block;
 }
@@ -141,5 +141,5 @@ body {
 }
 
 @media screen and (max-width:480px) {
-    h2 { font-size: 200px }
+    label { font-size: 250px }
  }
