@@ -64,7 +64,7 @@ body {
     border-right: 1px solid #999;
 }
 
-#inputContainer h1 {
+#inputContainer h2 {
     text-align: center;
 }
 
@@ -82,7 +82,7 @@ body {
 
 #inputContainer label {
     color: white;
-    font-size: 13px;
+    font-size: 113px;
     margin-top: 15px;
     display: block;
 }
