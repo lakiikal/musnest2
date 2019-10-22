@@ -64,7 +64,7 @@ body {
     border-right: 1px solid #999;
 }
 
-#inputContainer h2 {
+#inputContainer h1 {
     text-align: center;
 }
 
@@ -140,6 +140,6 @@ body {
     display: block;
 }
 
-@media screen and(max-width:480px){
-    h2 { font-size:200px; }
+@media screen and (max-width:480px) {
+    h2 { font-size: 200px }
  }
