@@ -141,9 +141,9 @@ body {
 }
 
 @media screen and (min-width:769px) {
-    body { font-size: 150% }
+    body, h2, label, input, button, span { font-size: 100% }
 }
 
 @media screen and (max-width:768px) {
-    body { font-size: 100% }
+    body, h2, label, input, button, span { font-size: 150% }
 }
