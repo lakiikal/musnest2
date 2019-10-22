@@ -139,11 +139,3 @@ body {
     font-size: 12px;
     display: block;
 }
-
-@media screen and (min-width:769px) {
-    body, h2, label, input, button, span, #loginText { font-size: 100% }
-}
-
-@media screen and (max-width:768px) {
-    body, h2, label, input, button, span, #loginText { font-size: 150% }
-}
