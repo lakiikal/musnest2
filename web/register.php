@@ -133,7 +133,7 @@
 
 			</div>
 
-			<div id="loginText" class="col-sm-6 d-none d-md-block">
+			<div id="loginText" class="col-sm-6 d-none d-sm-block">
 				<h1>Get great music, right now</h1>
 				<h2>Listen to loads of songs for free</h2>
 				<ul>

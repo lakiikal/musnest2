@@ -27,7 +27,7 @@ body {
     width: 80%;
     margin: 0 auto;
     position: relative;
-    max-width: 1024px;
+    /*max-width: 1024px;*/
 }
 
 ::-webkit-input-placeholder {
