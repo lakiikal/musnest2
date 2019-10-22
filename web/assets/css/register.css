@@ -139,3 +139,7 @@ body {
     font-size: 12px;
     display: block;
 }
+
+@media screen and(max-width:480px){
+    loginText h1, loginText h2 { font-size:1.1em; }
+ }
