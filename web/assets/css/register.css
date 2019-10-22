@@ -140,6 +140,10 @@ body {
     display: block;
 }
 
+@media screen and (min-width:769px) {
+    body { font-size: 150% }
+}
+
 @media screen and (max-width:768px) {
-    #loginContainer { font-size: 150% }
- }
+    body { font-size: 100% }
+}
