@@ -141,5 +141,5 @@ body {
 }
 
 @media screen and(max-width:480px){
-    #loginContainer { font-size:200px; }
+    h2 { font-size:200px; }
  }
