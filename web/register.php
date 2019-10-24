@@ -18,8 +18,7 @@
 <html>
 <head>
 	<title>Welcome to Musnest!</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -134,13 +133,8 @@
 			</div>
 
 			<div id="loginText">
-				<h1>Get great music, right now</h1>
-				<h2>Listen to loads of songs for free</h2>
-				<ul>
-					<li>Discover music you'll fall in love with</li>
-					<li>Create your own playlists</li>
-					<li>Follow artists to keep up to date</li>
-				</ul>
+				<h1>This is a nest of musical bird</h1>
+				<h2>Enjoy the good song</h2>
 			</div>
 
 		</div>

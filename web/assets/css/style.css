@@ -360,3 +360,24 @@ body {
     color: #fff;
     margin-bottom: 7px;
 }
+
+.buttonItems {
+    float: right;
+    margin: 0 auto 20px auto;
+}
+
+.button {
+    position: fixed;
+    top: 2em;
+    right: 2em;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+}
