@@ -162,8 +162,14 @@ body {
 }
 /*laki*/
 
-#inputContainer .errorMessage {
-    color: #07d159;
-    font-size: 12px;
+#inputContainer .errorMessage:not(:empty) {
+    color: white;
+    font-size: 15px;
     display: block;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    padding: 5px;
 }
