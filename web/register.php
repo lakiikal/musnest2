@@ -138,7 +138,7 @@
 
 			</div>
 
-			<div id="loginText" class="col-sm-6 d-none d-md-inline">
+			<div id="loginText" class="col-sm-6 d-md-inline text-sm-left">
 				<h1>This is a nest of musical bird</h1>
 				<h2>Enjoy the good song</h2>
 			</div>

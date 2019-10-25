@@ -138,9 +138,29 @@ body {
     font-weight: bold;
 }
 
+/*laki*/
+@media screen and (max-width: 768px) {
+    #loginText h1 {
+        text-align: center;
+        color: #07d159;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+/*laki*/
+
 #loginText h2 {
     margin: 35px 0;
 }
+
+/*laki*/
+@media screen and (max-width: 768px) {
+    #loginText h2 {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+/*laki*/
 
 #inputContainer .errorMessage {
     color: #07d159;
