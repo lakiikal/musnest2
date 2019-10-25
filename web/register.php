@@ -56,7 +56,7 @@
 
 		<div id="loginContainer" class="row">
 
-			<div id="inputContainer" class="col-md-6">
+			<div id="inputContainer" class="col-sm-6">
 				<form id="loginForm" action="register.php" method="POST">
 					<h2>Login to your account</h2>
 					<p>
@@ -137,7 +137,7 @@
 
 			</div>
 
-			<div id="loginText" class="col-md-6 d-none d-md-inline">
+			<div id="loginText" class="col-sm-6 d-none d-md-inline">
 				<h1>This is a nest of musical bird</h1>
 				<h2>Enjoy the good song</h2>
 			</div>
