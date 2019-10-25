@@ -52,7 +52,7 @@
 	?>
 	
 
-	<div id="background">
+	<!--<div id="background">-->
 
 		<div id="loginContainer" class="row">
 
@@ -143,7 +143,7 @@
 			</div>
 
 		</div>
-	</div>
+	<!--</div>-->
 
 </body>
 </html>
