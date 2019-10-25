@@ -54,7 +54,7 @@
 
 	<div id="background">
 
-		<div id="loginContainer">
+		<div id="loginContainer" class="row">
 
 			<div id="inputContainer" class="col-md-6">
 				<form id="loginForm" action="register.php" method="POST">
