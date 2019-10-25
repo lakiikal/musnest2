@@ -67,10 +67,7 @@ body {
 /*laki*/
 @media screen and (max-width: 768px) {
     #inputContainer {
-    width: 400px;
-    padding: 45px;
-    float: left;
-    border-right: transparent;
+        border-right: transparent;
     }
 }
 /*laki*/
