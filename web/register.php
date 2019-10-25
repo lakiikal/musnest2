@@ -20,7 +20,12 @@
 	<title>Welcome to Musnest!</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
-
+	<!--laki-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!--laki-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/js/register.js"></script>
 </head>
@@ -51,7 +56,7 @@
 
 		<div id="loginContainer">
 
-			<div id="inputContainer">
+			<div id="inputContainer" class="col-md-6">
 				<form id="loginForm" action="register.php" method="POST">
 					<h2>Login to your account</h2>
 					<p>
@@ -132,7 +137,7 @@
 
 			</div>
 
-			<div id="loginText">
+			<div id="loginText" class="col-md-6 d-none d-md-inline">
 				<h1>This is a nest of musical bird</h1>
 				<h2>Enjoy the good song</h2>
 			</div>
