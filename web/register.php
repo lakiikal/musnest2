@@ -57,7 +57,7 @@
 
 		<div id="loginContainer" class="row">
 
-			<div id="inputContainer" class="col-sm-6">
+			<div id="inputContainer" class="col-sm-6 mx-auto d-block">
 				<form id="loginForm" action="register.php" method="POST">
 					<h2>Login to your account</h2>
 					<p>
