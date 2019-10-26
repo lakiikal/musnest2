@@ -1,7 +1,7 @@
 <nav id="navForMobile" class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
-	<span class="navbar-brand fixed-left" onclick="openPage('index.php')" class="logo">
+	<div class="navbar-brand fixed-left" onclick="openPage('index.php')" >
 		<img src="assets/images/icons/logo.png">
-	</span>
+</div>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
 		<span class="navbar-toggler-icon fixed-right"></span>
 	</button>
