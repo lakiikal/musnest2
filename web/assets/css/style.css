@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    background-color: #181818;
+    background-color: #181818 !important;
     font-size: 14px;
     /*min-width: 720px;*/
     min-width: 450px;
@@ -41,8 +41,13 @@ body {
 
 /*laki*/
 @media screen and (max-width: 576px) {
-    #nowPlayingLeft, #nowPlayingRight {
-        width: 20%;
+    #nowPlayingLeft {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 576px) {
+    #nowPlayingRight {
+        display: none;
     }
 }
 /*laki*/
@@ -53,7 +58,7 @@ body {
 }
 
 #nowPlayingCenter {
-    width: 40%;
+    width: 70%;
     max-width: 700px;
     display: flex;
     flex-direction: column;
@@ -172,9 +177,9 @@ body {
     right: 0;
 }
 
-/*.volumeBar .progressBar {
+.volumeBar .progressBar {
     width: 125px;
-}*/
+}
 
 #topContainer {
     min-height: 100%;
@@ -276,6 +281,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 .gridViewItem img {
     width: 100%;
 }
@@ -298,6 +304,14 @@ body {
     display: inline-block;
     width: 100%;
 }
+
+/*laki*/
+@media screen and (max-width: 576px) {
+    .entityInfo {
+        margin-top: 40px;
+    }
+}
+/*laki*/
 
 .entityInfo .leftSection {
     width: 30%;
@@ -330,7 +344,7 @@ body {
 }
 
 .tracklistRow {
-    height: 40px;
+    height: 65px;
     padding: 15px 10px;
     list-style: none;
 }
@@ -393,7 +407,7 @@ body {
 }
 
 .tracklistRow .trackDuration {
-    width: 12%;
+    width: 10%;
     float: left;
     text-align: right;
 }
