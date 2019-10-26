@@ -102,7 +102,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navForMobile").style.top = "0";
   } else {
-    document.getElementById("navForMobile").style.top = "-50px";
+    document.getElementById("navForMobile").style.top = "-200px";
   }
   prevScrollpos = currentScrollPos;
 }
