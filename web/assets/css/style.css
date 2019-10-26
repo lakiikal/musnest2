@@ -230,7 +230,7 @@ body {
     width: 32px;
 }
 
-.navBar .group {
+/*.navBar .group {
     border-top: 1px solid #a0a0a0;
     padding: 10px 0;
 }
@@ -258,7 +258,7 @@ body {
     right: 0;
     top: 6px;
     width: 25px;
-}
+}*/
 
 #mainViewContainer {
     margin-left: 220px;

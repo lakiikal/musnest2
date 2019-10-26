@@ -1,12 +1,12 @@
-<nav id="navForMobile" class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
-	<div class="navbar-brand fixed-left" onclick="openPage('index.php')" >
+<nav id="navForMobile" class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black;">
+	<span class="navbar-brand" onclick="openPage('index.php')" class="logo">
 		<img src="assets/images/icons/logo.png">
-</div>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
-		<span class="navbar-toggler-icon fixed-right"></span>
+	</span>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid" style="border: 2px solid white;">
+		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="navbar-collapse collapse" id="collapseid">
-		<ul class="navbar-nav text-center">
+		<ul class="navbar-nav text-right">
 			<li class="nav-item">
 				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink text-white">Browse</span>
 			</li>
@@ -19,10 +19,19 @@
 		</ul>
 	</div>
 </nav>
-		
 
+<script>
+	$("#collapseid li").click(function(){
+    	$(this).parent().hide();
+	});
+	
+	$(".navbar-toggler").click(function(){
+    	$(".navbar-nav").show();
+	});
+</script>
+		
 <div id="navBarContainer">
-	<nav class="navBar">
+	<nav class="nav-Bar">
 
 		<span role="link" tabindex="0" onclick="openPage('index.php')" class="logo">
 			<img src="assets/images/icons/logo.png">
@@ -41,3 +50,8 @@
 
 	</nav>
 </div>
+<script>
+	$(".navbar-toggler").click(function(){
+    	$(".navbar-nav text-right").show();
+	});
+</script>
