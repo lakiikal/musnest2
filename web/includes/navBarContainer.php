@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
-	<a class="navbar-brand" onclick="openPage('index.php')" class="logo">
+	<span class="navbar-brand fixed-left" onclick="openPage('index.php')" class="logo">
 		<img src="assets/images/icons/logo.png">
-	</a>
+	</span>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
-		<span class="navbar-toggler-icon"></span>
+		<span class="navbar-toggler-icon fixed-right"></span>
 	</button>
-	<div class="collapse navbar-collapse" id="collapseid">
+	<div class="navbar-collapse collapse hide" id="collapseid">
 		<ul class="navbar-nav">
 			<li class="nav-item">
 				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink">Browse</span>

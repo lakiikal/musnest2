@@ -14,7 +14,8 @@ body {
 body {
     background-color: #181818;
     font-size: 14px;
-    min-width: 720px;
+    /*min-width: 720px;*/
+    min-width: 450px;
 }
 
 #nowPlayingBarContainer {
@@ -22,7 +23,7 @@ body {
     background-color: #282828;
     bottom: 0;
     position: fixed;
-    min-width: 620px;
+    /*min-width: 620px;*/
 }
 
 #nowPlayingBar {
@@ -35,8 +36,16 @@ body {
 #nowPlayingLeft,
 #nowPlayingRight {
     width: 30%;
-    min-width: 180px;
+    /*min-width: 180px;*/
 }
+
+/*laki*/
+@media screen and (max-width: 576px) {
+    #nowPlayingLeft, #nowPlayingRight {
+        width: 20%;
+    }
+}
+/*laki*/
 
 #nowPlayingRight {
     position: relative;
@@ -50,6 +59,14 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/*laki*/
+@media screen and (max-width: 576px) {
+    #nowPlayingCenter {
+        width: 60%;
+    }
+}
+/*laki*/
 
 #nowPlayingBar .content {
     width: 100%;
@@ -126,6 +143,14 @@ body {
     background-size: cover;
 }
 
+/*laki*/
+@media screen and (max-width: 576px) {
+    #nowPlayingLeft .albumArtwork {
+        display: none;
+    }
+}
+/*laki*/
+
 #nowPlayingLeft .trackInfo {
     display: table;
 }
@@ -142,14 +167,14 @@ body {
 }
 
 .volumeBar {
-    width: 180px;
+    /*width: 180px;*/
     position: absolute;
     right: 0;
 }
 
-.volumeBar .progressBar {
+/*.volumeBar .progressBar {
     width: 125px;
-}
+}*/
 
 #topContainer {
     min-height: 100%;
@@ -223,6 +248,15 @@ body {
     padding-bottom: 90px;
     width: calc(100% - 220px);
 }
+
+/*laki*/
+@media screen and (max-width: 576px) {
+    #mainViewContainer {
+        margin: 100px 0px 0px 10px;
+        width: 100%;
+    }
+}
+/*laki*/
 
 #mainContent {
     padding: 0 20px;
