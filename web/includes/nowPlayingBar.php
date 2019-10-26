@@ -223,7 +223,7 @@ function pauseSong() {
 						<span></span>
 					</span>
 
-					<span class="artistName pb-3">
+					<span class="artistName">
 						<span></span>
 					</span>
 

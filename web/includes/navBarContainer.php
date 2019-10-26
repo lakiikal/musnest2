@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
+<nav id="navForMobile" class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
 	<span class="navbar-brand fixed-left" onclick="openPage('index.php')" class="logo">
 		<img src="assets/images/icons/logo.png">
 	</span>
