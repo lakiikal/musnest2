@@ -1,3 +1,23 @@
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top d-sm-none" style="background-color: black; border-color: white;">
+	<a class="navbar-brand" onclick="openPage('index.php')" class="logo">
+		<img src="assets/images/icons/logo.png">
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="collapseid">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink">Browse</span>
+			</li>
+			<li class="nav-item">
+				<span role="link" tabindex="0" onclick="openPage('yourMusic.php')" class="navItemLink">Your Music</span>
+			</li>
+		</ul>
+	</div>
+</nav>
+		
+
 <div id="navBarContainer">
 	<nav class="navBar">
 
@@ -14,10 +34,7 @@
 				<span role="link" tabindex="0" onclick="openPage('yourMusic.php')" class="navItemLink">Your Music</span>
 			</div>
 
-				</div>
-
-
-
+		</div>
 
 	</nav>
 </div>
