@@ -282,6 +282,15 @@ body {
     margin-bottom: 20px;
 }
 
+/*laki*/
+@media screen and (max-width: 576px) {
+    .gridViewItem {
+        margin-left: 1%;
+        width: 44%;
+        
+    }
+}
+/*laki*/
 
 .gridViewItem img {
     width: 100%;
