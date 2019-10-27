@@ -34,7 +34,7 @@ else {
 <body>
 
 	<div class="buttonItems">
-		<button class="button" onclick="logout()">LOGOUT</button>
+		<button class="button" style="outline: none;" onclick="logout()">LOGOUT</button>
 	</div>
 
 	<div id="mainContainer">

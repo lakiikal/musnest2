@@ -31,27 +31,22 @@
 </script>
 		
 <div id="navBarContainer">
-	<nav class="nav-Bar">
+	<nav class="navBar">
 
-		<span role="link" tabindex="0" onclick="openPage('index.php')" class="logo">
-			<img src="assets/images/icons/logo.png">
+		<span role="link" tabindex="0" onclick="openPage('index.php')" class="logo" style="outline: none;">
+			<img src="assets/images/icons/logo.png" style="width: 60px; float: left; cursor: pointer;">
 		</span>
 		
 		<div class="group">
-			<div class="navItem">
-				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink">Browse</span>
+			<div class="navItem" style="padding: 10px 0; font-size: 18px; font-weight: 700; display: block; letter-spacing: 1px; position: relative; text-align: left; cursor: pointer;">
+				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink" style="outline: none;">Browse</span>
 			</div>
 
-			<div class="navItem">
-				<span role="link" tabindex="0" onclick="openPage('yourMusic.php')" class="navItemLink">Your Music</span>
+			<div class="navItem" style="font-size: 18px; font-weight: 700; display: block; letter-spacing: 1px; position: relative; text-align: left; cursor: pointer;">
+				<span role="link" tabindex="0" onclick="openPage('yourMusic.php')" class="navItemLink" style="outline: none;">Your Music</span>
 			</div>
 
 		</div>
 
 	</nav>
 </div>
-<script>
-	$(".navbar-toggler").click(function(){
-    	$(".navbar-nav text-right").show();
-	});
-</script>

@@ -230,30 +230,30 @@ body {
     width: 32px;
 }
 
-/*.navBar .group {
+.navBar .group {
     border-top: 1px solid #a0a0a0;
     padding: 10px 0;
 }
 
-.navItem {
+/*.navItem {
     padding: 10px 0;
     font-size: 14px;
     font-weight: 700;
     display: block;
     letter-spacing: 1px;
     position: relative;
-}
+}*/
 
-.navItemLink {
+/*.navItemLink {
     color: #a0a0a0;
     text-decoration: none;
-}
+}*/
 
-.navItemLink:hover {
+/*.navItemLink:hover {
     color: #ffffff;
-}
+}*/
 
-.navItemLink .icon {
+/*.navItemLink .icon {
     position: absolute;
     right: 0;
     top: 6px;
@@ -441,6 +441,7 @@ body {
 .buttonItems {
     float: right;
     margin: 0 auto 20px auto;
+    outline: none;
 }
 
 /*laki*/
