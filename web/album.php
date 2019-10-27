@@ -41,8 +41,8 @@ $artist = $album->getArtist();
 
 			echo 	"<li id='fake' class='tracklistRow' style='height: 50px; padding: 0px;'>
 						<div class='trackCount'>
-							<img class='play' src='assets/images/icons/play-white.png' style='visibility: hidden;'>
-							<span class='trackNumber' style='visibility: hidden;'>$i</span>
+							<img class='play' src='assets/images/icons/play-white.png' onclick='setTrack(\"" . $albumSong->getId() . "\", tempPlaylist, true)'>
+							<span class='trackNumber'>$i</span>
 						</div>
 					</li>
 					<li class='tracklistRow'>
