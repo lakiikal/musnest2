@@ -196,7 +196,7 @@ function playSong() {
 
 	$(".controlButton.play").hide();
 	$(".controlButton.pause").show();
-	audioElement.play();
+	audioElement.play();/*********************************************************************************************************************************************************************************************/
 }
 
 function pauseSong() {
@@ -248,7 +248,7 @@ function pauseSong() {
 						<img src="assets/images/icons/previous.png" alt="Previous">
 					</button>
 
-					<button class="controlButton play" title="Play button" onclick="playSong()">
+					<button class="controlButton play" title="Play button" onclick="playSong()"><!---------------------------------------------------------------------------------------------------------------->
 						<img src="assets/images/icons/play.png" alt="Play">
 					</button>
 
