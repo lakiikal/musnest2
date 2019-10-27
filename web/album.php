@@ -33,7 +33,7 @@ $artist = $album->getArtist();
 		<?php
 		$songIdArray = $album->getSongIds();
 
-		$i = 1;
+		$i = 2;
 		foreach($songIdArray as $songId) {
 
 			$albumSong = new Song($con, $songId);
