@@ -18,7 +18,7 @@
 <html>
 <head>
 	<title>Welcome to Musnest!</title>
-
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
 	<!--laki-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -42,8 +42,12 @@
 				<span role="link" tabindex="0" onclick="openPage('browse.php')" class="navItemLink" style="outline: none;">Browse</span>
 			</div>
 
-			<div class="navItem" style="font-size: 18px; font-weight: 700; display: block; letter-spacing: 1px; position: relative; text-align: left; cursor: pointer;">
+			<div class="navItem" style="padding-bottom: 10px; font-size: 18px; font-weight: 700; display: block; letter-spacing: 1px; position: relative; text-align: left; cursor: pointer;">
 				<span role="link" tabindex="0" onclick="openPage('yourMusic.php')" class="navItemLink" style="outline: none;">Your Music</span>
+			</div>
+
+			<div class="navItem" style="font-size: 18px; font-weight: 700; display: block; letter-spacing: 1px; position: relative; text-align: left; cursor: pointer;">
+				<span role="link" tabindex="0" onclick="logout()" class="navItemLink" style="outline: none;">Logout</span>
 			</div>
 
 		</div>

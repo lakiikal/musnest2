@@ -7,16 +7,6 @@ var currentIndex = 0;
 var repeat = false;
 var shuffle = false;
 var userLoggedIn;
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-var promise = document.querySelector('audio').play();/********************************************************************************************************************************/
-if (promise !== undefined) {
-    promise.then(_ => {
-        // Autoplay started!
-    }).catch(error => {
-        // Autoplay was prevented.
-        // Show a "Play" button so that user can start playback.
-    });
-}
 
 function logout() {
 	$.post("includes/handlers/ajax/logout.php", function() {
@@ -92,9 +82,9 @@ function Audio() {
 	}
 
 	this.play = function() {
-		this.audio.play();/*****************************************************************************************************************************************************/
+		this.audio.play();
 	}
-
+	
 	this.pause = function() {
 		this.audio.pause();
 	}

@@ -2,9 +2,9 @@
 include("includes/includedFiles.php"); 
 ?>
 
-<div class="buttonItems">
+<!--<div class="buttonItems">
 	<button class="button" style="outline: none;" onclick="logout()">LOGOUT</button>
-</div>
+</div>-->
 
 <h1 class="pageHeadingBig">Enjoy... :)</h1>
 

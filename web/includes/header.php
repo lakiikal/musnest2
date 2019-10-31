@@ -19,7 +19,7 @@ else {
 <html>
 <head>
 	<title>Welcome to Musnest!</title>
-
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!--laki-->
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
@@ -33,9 +33,9 @@ else {
 </head>
 <body>
 
-	<div class="buttonItems">
+	<!--<div class="buttonItems">
 		<button class="button" style="outline: none;" onclick="logout()">LOGOUT</button>
-	</div>
+	</div>-->
 
 	<div id="mainContainer">
 
